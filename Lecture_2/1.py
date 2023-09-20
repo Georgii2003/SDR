@@ -18,7 +18,7 @@ for n in n_values:
     python_sort_times.append(python_time)
     
     # Измеряем время выполнения сортировки для NumPy
-    numpy_time = timeit.timeit()
+    numpy_time = timeit.timeit(lambda: np.sort(random_list, kind='quicksort'), number=1)
     numpy_sort_times.append(numpy_time)
 
 # Строим график
