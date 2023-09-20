@@ -1,6 +1,7 @@
 import time
+import timeit
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 python_sort_times = []
 numpy_sort_times = []
@@ -13,11 +14,11 @@ for n in n_values:
     random_list = np.random.randint(0, 1000, n).tolist()
     
     # Измеряем время выполнения сортировки для Python List
-    python_time = time.time(lambda: sorted(random_list), number=1)
+    python_time = timeit.timeit(lambda: sorted(random_list), number=1)
     python_sort_times.append(python_time)
     
     # Измеряем время выполнения сортировки для NumPy
-    numpy_time = time.time(lambda: np.sort(random_list, kind='quicksort'), number=1)
+    numpy_time = timeit.timeit()
     numpy_sort_times.append(numpy_time)
 
 # Строим график
