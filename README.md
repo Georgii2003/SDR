@@ -1,4 +1,4 @@
-﻿[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&background=FFFFFF&width=435&lines=Hello%2C+I'm+Georgii%2C;a+group+student+ia131)](https://git.io/typing-svg)
+﻿[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&background=FFFFFF&width=435&lines=Hello%2C+I'm+Georgii;A+group+student+ia131)](https://git.io/typing-svg)
 
 # SDR
 1. **Lecture 1**
