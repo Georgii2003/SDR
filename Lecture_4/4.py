@@ -6,10 +6,9 @@ import matplotlib.pyplot as plt
 
 
 fc=20 # Частота косинуса 
-fc1=40
-fs=320
+fs=320 * fc
 t=np.arange( 0, 2,  1/fs) # длительность сигнала 2 с
-x=np.cos(2*np.pi*fc*t) + 2 * np.cos(2*np.pi*fc1*t) # формирование временного сигнала
+x=np.cos(2*np.pi*fc*t) # формирование временного сигнала
 
 plt.figure(1)
 plt.plot(t,x) 
