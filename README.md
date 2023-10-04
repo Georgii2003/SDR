@@ -6,7 +6,9 @@
 | Lecture_1 | [Georgii2003/SDR/tree/main/Lecture_1/README.md][L1] |
 | Lecture_2 | [Georgii2003/SDR/tree/main/Lecture_2/README.md][L2] |
 | Lecture_3 | [Georgii2003/SDR/tree/main/Lecture_3/README.md][L3] |
+| Lecture_4 | [Georgii2003/SDR/tree/main/Lecture_4/README.md][L4] |
 
 [L1]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_1/README.md>
 [L2]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_2/README.md>
 [L3]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_3/README.md>
+[L4]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_4/README.md>
