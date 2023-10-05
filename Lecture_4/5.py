@@ -50,5 +50,3 @@ plt.plot(t ,np.real(x_ifft ))
 #plt.stem(t ,np.real(x_ifft )) # временные отсчеты колебания
 plt.xlabel('c')
 plt.ylabel('$x[n]$') 
-
-#1,25Гц
