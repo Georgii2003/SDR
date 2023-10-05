@@ -1,12 +1,12 @@
-﻿[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&background=FFFFFF&width=435&lines=Hello%2C+I'm+Georgii;A+group+student+ia131)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&background=FFFFFF&width=435&lines=Hello%2C+I'm+Georgii;A+group+student+ia131)](https://git.io/typing-svg)
 
 # SDR
-| Lecture | README | | Справочный материал |
-| ------ | ------ | | ------ |
-| Lecture_1 | [Georgii2003/SDR/tree/main/Lecture_1/README.md][P1] | | [Лекция_1][L1] и [Лекция_2][L2] |
-| Lecture_2 | [Georgii2003/SDR/tree/main/Lecture_2/README.md][P2] | | [Лекция_3][L3] и [Лекция_4][L4] |
-| Lecture_3 | [Georgii2003/SDR/tree/main/Lecture_3/README.md][P3] | | [Лекция_5][L5] и [Лекция_6][L6] |
-| Lecture_4 | [Georgii2003/SDR/tree/main/Lecture_4/README.md][P4] | | [Лекция_7][L5] и [Лекция_8][L8] |
+| Lecture | README | Справочный материал |
+| ------ | ------ | ------ |
+| Lecture_1 | [Georgii2003/SDR/tree/main/Lecture_1/README.md][P1] | [Лекция_1][L1] и [Лекция_2][L2] |
+| Lecture_2 | [Georgii2003/SDR/tree/main/Lecture_2/README.md][P2] | [Лекция_3][L3] и [Лекция_4][L4] |
+| Lecture_3 | [Georgii2003/SDR/tree/main/Lecture_3/README.md][P3] | [Лекция_5][L5] и [Лекция_6][L6] |
+| Lecture_4 | [Georgii2003/SDR/tree/main/Lecture_4/README.md][P4] | [Лекция_7][L5] и [Лекция_8][L8] |
 
 [P1]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_1/README.md>
 [P2]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_2/README.md>
