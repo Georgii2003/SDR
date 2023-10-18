@@ -26,5 +26,5 @@
 [L7]: <https://humble-ballcap-e09.notion.site/7-0ee2669e5e8144f39ed11d8455609fc2>
 [L8]: <https://humble-ballcap-e09.notion.site/8-Python-Spyder-c8f1d4266bd0468caadda311c2e6f812>
 [L9]: <https://humble-ballcap-e09.notion.site/9-e47a36000b3944be8c93d32561685ae1>
-[L10]: <https://humble-ballcap-e09.notion.site/11-sin-PlutoSDR-33d96c13fe9142c3bdceb2ede48f7a50>
+[L10]: <https://humble-ballcap-e09.notion.site/10-Python-Spyder-6db5b4e2bbc74e098af7297b98508b63>
 
