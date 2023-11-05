@@ -8,12 +8,17 @@
 | Lecture_3 | [Georgii2003/SDR/tree/main/Lecture_3/README.md][P3] | [Лекция_5][L5] и [Лекция_6][L6] |
 | Lecture_4 | [Georgii2003/SDR/tree/main/Lecture_4/README.md][P4] | [Лекция_7][L7] и [Лекция_8][L8] |
 | Lecture_5 | [Georgii2003/SDR/tree/main/Lecture_5/README.md][P5] | [Лекция_9][L9] и [Лекция_10][L10] |
+| Lecture_6 | [Georgii2003/SDR/tree/main/Lecture_6/README.md][P6] | [Лекция_11][L11] и [Лекция_12][L12] |
+| Lecture_7 | [Georgii2003/SDR/tree/main/Lecture_7/README.md][P7] | [Лекция_13][L13]|
+
 
 [P1]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_1/README.md>
 [P2]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_2/README.md>
 [P3]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_3/README.md>
 [P4]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_4/README.md>
 [P5]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_5/README.md>
+[P6]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_6/README.md>
+[P7]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_7/README.md>
 
 
 
@@ -27,4 +32,6 @@
 [L8]: <https://humble-ballcap-e09.notion.site/8-Python-Spyder-c8f1d4266bd0468caadda311c2e6f812>
 [L9]: <https://humble-ballcap-e09.notion.site/9-e47a36000b3944be8c93d32561685ae1>
 [L10]: <https://humble-ballcap-e09.notion.site/10-Python-Spyder-6db5b4e2bbc74e098af7297b98508b63>
-
+[L11]: <https://humble-ballcap-e09.notion.site/11-33d96c13fe9142c3bdceb2ede48f7a50>
+[L12]: <https://humble-ballcap-e09.notion.site/12-83c5c0afd4d6469d8d40becd87874dc8>
+[L13]: <https://humble-ballcap-e09.notion.site/13-QPSK-QAM-SDR-6928d03094d34fc895a4ab49dfed48ec>
