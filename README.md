@@ -13,7 +13,7 @@
 | Lecture_8 | [Georgii2003/SDR/tree/main/Lecture_8/README.md][P8] | [Лекция_14][L14]|
 | Lecture_9 | [Georgii2003/SDR/tree/main/Lecture_9/README.md][P9] | [Лекция_15][L15]|
 | Lecture_10 | [Georgii2003/SDR/tree/main/Lecture_10/README.md][P10] | [Лекция_16][L16]|
-| Lecture_11 | [Georgii2003/SDR/tree/main/Lecture_11/README.md][P911] | [Лекция_16][L16]|
+| Lecture_11 | [Georgii2003/SDR/tree/main/Lecture_11/README.md][P11] | [Лекция_16][L16]|
 
 
 [P1]: <https://github.com/Georgii2003/SDR/tree/main/Lecture_1/README.md>
