@@ -1,73 +1,48 @@
-#include "Qam_mod.h"
-#include "Gauss_noise.h"
-#include "Qam_demod.h"
-
-using namespace std;
-
-// Функция для вычисления вероятности ошибки
-double calculateErrorProbability(const vector<bool>& originalBits, const vector<bool>& demodulatedBits) {
-    int errors = 0;
-    for (size_t i = 0; i < originalBits.size(); ++i) {
-        if (originalBits[i] != demodulatedBits[i]) {
-            ++errors;
-        }
-    }
-    return static_cast<double>(errors) / originalBits.size();
-}
+#include "libraries/Qam_mod.h"
+#include "libraries/Gauss_noise.h"
+#include "libraries/Qam_demod.h"
+#include "libraries/Bits_generator.h"
 
 int main() {
+    setlocale(LC_ALL, "");
 
-    setlocale ( LC_ALL, "" );
+    // генерация рандомных битов
+    Bit_gen generateRandomBits;
+    vector<bool> bits = generateRandomBits.generateRandomBits(size);
 
-    // создание массива рандомных битов
-    srand(time(0));
-    int size = 64;
-    vector <bool> bits(size);
-    for (int i = 0; i < size; i++) {
-        bits[i] = rand() % 2;
-    }
-    // вывод рандомных битов
-    cout << "Рандомный массив бит: ";
-    for (int i = 0; i < size; i++) {
-        cout << bits[i];
-    }
+    // QAM модуляция
+    QAM_Mod mod(16); // QAM16
+    vector<complex<float>> modulated_data = mod.mod(bits);
 
-    // QPSK модуляция
-    QPSK_Mod mod4; 
-    vector <complex <double>> modulated_data = mod4.mod4(bits);
+    // открытие файла для записи 
+    ofstream errorProbabilityFile("error_probability.txt");
 
-    // вывод символов
-    for (const auto& data : modulated_data) {
-        cout << "\nQPSK символы:" << data << endl;
-    }
-
-    // параметры шума
-    double noise_power = 1.0; // мощность шума
-    double mean = 0.0; // среднее значение шума
-    vector<double> std_devs = {0.1, 0.5, 1.0, 1.7}; // значения дисперсии шума
-
-    // добавление шума к сигналу с разными значениями дисперсии
+    // добавление шума к сигналу с различными значениями дисперсии
     Gauss_noise noise;
-    vector<complex<double>> noisy_signal;
-    for (double std_dev : std_devs) {
-        noisy_signal = noise.addGaussianNoise(modulated_data, noise_power, mean, std_dev);
-    // вывод сигнала с шумом
-        cout << "\nQPSK символы с шумом (дисперсия шума: " << std_dev << "):" << endl;
-        for (const auto& data : noisy_signal) {
-            cout << data << endl;
+    for (float std_dev : std_devs) 
+    {
+        vector<complex<float>> noisy_signal = noise.addGaussianNoise(modulated_data, noise_power, mean, std_dev);
+
+        // QAM демодуляция
+        QAM_Demod demod(16); // QAM16 демодуляция
+        vector<bool> demodulated_data = demod.demod(noisy_signal);
+
+        // вычисление кол-ва ошибок
+        int errors = 0;
+        for (size_t i = 0; i < bits.size(); ++i) {
+            if (bits[i] != demodulated_data[i]) {
+                ++errors;
+            }
         }
+
+        // вычисление вероятности ошибки
+        double errorProbability = static_cast<double>(errors) / bits.size();
+
+        // запись вероятности ошибки
+        errorProbabilityFile << std_dev << " " << errorProbability << endl;
     }
 
-    // QPSK демодуляция
-    QPSK_Demod demod4;
-    vector<bool> demodulated_data = demod4.demod4(noisy_signal);
-
-    // вывод демодулированных данных
-    cout << "Демодулированные биты: ";
-    for (bool bit : demodulated_data) {
-        cout << bit;
-    }
-    cout << endl;
-
+    // закрытие файла
+    errorProbabilityFile.close();
     return 0;
 }
