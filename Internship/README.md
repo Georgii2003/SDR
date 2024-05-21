@@ -26,14 +26,13 @@
     В данном случае пришлось изучить много информации в кратчайшие сроки, т к не так много библиотек на C++ позволяют выводить графики. К сожалению в данных временных рамках я не успел установить ни одну библиотеку, поэтому сохранил данные вероятности ошибки в отдельный файл и вывел их с помощью графика на Python (программа лежит [здесь][P6])
 
     Сам график:
-
-     ![graphic](https://github.com/Georgii2003/SDR/blob/main/Internship/graphics/graphic.png)
+     ![graphic](https://github.com/Georgii2003/SDR/blob/main/Internship/graphic.png)
 
     **upd**: В данном случае, у графика QAM64 есть некоторые странности. Могу предположить, что это из-за размера вектора данных (48 бит)
 
     График сравнения для QAM4/QAM16/QAM64:
 
-     ![graphic_1](https://github.com/Georgii2003/SDR/blob/main/Internship/graphics/graphic_1.png)
+     ![graphic_1](https://github.com/Georgii2003/SDR/blob/main/Internship/graphic_1.png)
 
 
 

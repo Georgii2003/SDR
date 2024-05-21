@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 
-# Открытие файла и чтение данных
+# Открытие и чтение данных
 with open('error_probability.txt', 'r') as file:
     lines = file.readlines()
 
-# Разделение данных на две разные коллекции
+# Разделение данных
 std_devs = []
 error_probabilities = []
 for line in lines:
@@ -12,7 +12,7 @@ for line in lines:
     std_devs.append(float(std_dev))
     error_probabilities.append(float(error_probability))
 
-# Создание графика
+# Вывод графика
 plt.figure(figsize=(10, 6))
 plt.plot(std_devs, error_probabilities, marker='o')
 plt.title('Зависимость вероятности ошибки на бит от дисперсии шума')
