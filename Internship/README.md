@@ -29,7 +29,9 @@
    
      ![graphic](https://github.com/Georgii2003/SDR/blob/main/Internship/graphic.png)
 
-    upd: График сравнения для QAM4/QAM16/QAM64:
+    upd: В данном случае, у графика QAM64 есть некоторые странности. Могу предположить, что это из-за размера вектора данных (48 бит)
+
+    График сравнения для QAM4/QAM16/QAM64:
 
      ![graphic_1](https://github.com/Georgii2003/SDR/blob/main/Internship/graphic_1.png)
 
